@@ -15,6 +15,16 @@ export default async function fetchStellarTokensAndWriteToFile() {
   // match the stellar tokens with the coingecko ids.
   const coins = await manualCoingeckoMatch(stellarTokens);
 
+  // Replace USD Coin with USDC on Stellar
+  coins.tokens.forEach((token) => {
+    if (
+      token.address ===
+      'GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN'
+    ) {
+      token.name = 'USDC on Stellar';
+    }
+  });
+
   // console.log('ct: ', JSON.stringify(coins, null, 4));
   // Write to file
   await writeToFile(coins);
@@ -42,7 +52,7 @@ async function manualCoingeckoMatch(stellarTokens: any) {
   coingecko.push({
     symbol: 'XLM',
     name: 'Stellar Lumens',
-    address: '11111111111111111111111111111111',
+    address: '11111111111111111111111111111XLM',
     domain: 'stellar.org',
     coingeckoId: 'stellar',
     coincodexId: 'xlm',

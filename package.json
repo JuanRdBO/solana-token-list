@@ -1,6 +1,6 @@
 {
   "name": "solana-stellar-token-list",
-  "version": "0.0.46",
+  "version": "0.0.50",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuanRdBO/solana-token-list.git"

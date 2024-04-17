@@ -1,4 +1,3 @@
-import { PublicKey } from '@solana/web3.js';
 import * as fs from 'fs';
 
 import {
@@ -38,6 +37,19 @@ async function fetchSolanaTokensAndWriteToFile() {
   const jupTokens = matchJupiterAndRest({
     jupTokens: jupCoins,
     restTokens: filteredTokens,
+  });
+
+  // filter the tokens for chainId 101
+  const solanaTokens = jupTokens.tokens.filter(
+    (token) => token.chainId === 101
+  );
+  jupTokens.tokens = solanaTokens;
+
+  // Loop through all the tokens and replace "USD Coin" with "USDC on Solana"
+  jupTokens.tokens.forEach((token) => {
+    if (token.address === 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v') {
+      token.name = 'USDC on Solana';
+    }
   });
 
   // write the coingecko tokens to the tokenlist file.
@@ -116,7 +128,7 @@ async function fetchCoingeckoCoins(): Promise<CoinMap> {
 function addSolanaToken(coins: any) {
   const solanaToken = {
     chainId: 101,
-    address: PublicKey.default.toString(),
+    address: '11111111111111111111111111111SOL',
     name: 'Solana',
     symbol: 'SOL',
     decimals: 9,
