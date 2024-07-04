@@ -5,5 +5,5 @@ This script will create the solana.tokenlist.json file that is going to be shipp
 To call it, simply run this command from the root of the project.
 
 ```cmd
-ts-node tools/index.ts
+ts-node --transpile-only tools/index.ts 
 ```
