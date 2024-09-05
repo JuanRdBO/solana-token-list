@@ -133,7 +133,7 @@ function addSolanaToken(coins: any) {
 		symbol: "SOL",
 		decimals: 9,
 		logoURI:
-			"https://assets.coingecko.com/coins/images/21629/thumb/solana.jpg?1639626543",
+			"https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
 		extensions: { coingeckoId: "solana" },
 	};
 

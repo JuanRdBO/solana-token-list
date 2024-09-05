@@ -15,6 +15,16 @@ export default async function fetchStellarTokensAndWriteToFile() {
 	// match the stellar tokens with the coingecko ids.
 	const coins = await manualCoingeckoMatch(stellarTokens);
 
+	coins.tokens.push({
+		symbol: "USDC Dev",
+		address: "GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5",
+		logoURI: "https://www.centre.io/images/usdc/usdc-icon-86074d9d49.png",
+		domain: "centre.io",
+		name: "USDC on Stellar Dev",
+		coingeckoId: "usd-coin",
+		coincodexId: "usdc",
+	});
+
 	// Replace USD Coin with USDC on Stellar
 	for (const token of coins.tokens) {
 		if (
