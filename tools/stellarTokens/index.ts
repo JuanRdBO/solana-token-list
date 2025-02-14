@@ -66,7 +66,7 @@ async function manualCoingeckoMatch(stellarTokens) {
 		coingeckoId: "stellar",
 		coincodexId: "xlm",
 		logoURI:
-			"https://assets.coingecko.com/coins/images/100/large/Stellar_symbol_black_RGB.png",
+			"https://raw.githubusercontent.com/JuanRdBO/solana-token-list/main/images/xlm.png",
 	});
 
 	return { ...stellarTokens, tokens: coingecko };
