@@ -1,11 +1,7 @@
 import axios from "axios";
-import { Json } from "../coingeckoTokens/types";
-import {
-	_coinsUrl,
-	_stablecoinsUrl,
-	_stellarTokensPath,
-} from "../coingeckoTokens/constants";
 import * as fs from "fs";
+import { _stellarTokensPath } from "../coingeckoTokens/constants";
+import type { Json } from "../coingeckoTokens/types";
 import { MANUAL_STELLAR_TOKENS } from "./constants";
 
 export default async function fetchStellarTokensAndWriteToFile() {
@@ -27,12 +23,10 @@ export default async function fetchStellarTokensAndWriteToFile() {
 
 	// Replace USD Coin with USDC on Stellar
 	for (const token of coins.tokens) {
-		if (
+		const isUsdc =
 			token.address ===
-			"GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
-		) {
-			token.name = "USDC on Stellar";
-		}
+			"CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75";
+		if (isUsdc) token.name = "USDC on Stellar";
 	}
 
 	// console.log('ct: ', JSON.stringify(coins, null, 4));
@@ -47,7 +41,8 @@ export default async function fetchStellarTokensAndWriteToFile() {
 async function manualCoingeckoMatch(stellarTokens) {
 	const coins = MANUAL_STELLAR_TOKENS;
 
-	const coingecko = stellarTokens.tokens.map((token) => {
+	console.log("stellarTokens: ", JSON.stringify(stellarTokens, null, 4));
+	const coingecko = stellarTokens.map((token) => {
 		const foundToken = coins.find(
 			(coin) => coin.symbol === token.symbol && coin.address === token.address,
 		);
@@ -61,7 +56,8 @@ async function manualCoingeckoMatch(stellarTokens) {
 	coingecko.push({
 		symbol: "XLM",
 		name: "Stellar Lumens",
-		address: "11111111111111111111111111111XLM",
+		address: "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+		issuer: "11111111111111111111111111111XLM",
 		domain: "stellar.org",
 		coingeckoId: "stellar",
 		coincodexId: "xlm",
@@ -78,50 +74,40 @@ export async function fetchStellarTokens() {
 			"Accept-Encoding": "*",
 		},
 	};
-	const rawCreitTech = await axios.get(
-		"https://raw.githubusercontent.com/Creit-Tech/stellar-assets/main/dist/curated-by-creit-tech.json",
+
+	const soroSwapTokens = await axios.get(
+		"https://raw.githubusercontent.com/soroswap/token-list/refs/heads/main/tokenList.json",
 		config,
 	);
+	const soroSwapTokenFormatted = soroSwapTokens.data.assets.map((token) => {
+		return {
+			symbol: token.code,
+			address: token.contract,
+			logoURI: token.icon,
+			domain: token.domain,
+			name: token.name,
+			decimals: token.decimals,
+			issuer: token.issuer,
+		};
+	});
 
-	// transform the data to look like the solana tokenlist
-	const updatedObject = {
-		...rawCreitTech.data,
-		tokens: rawCreitTech.data.assets.map(
-			({
-				code,
-				publicKey,
-				image,
-				...rest
-			}: {
-				code: string;
-				publicKey: string;
-				image: string;
-			}) => ({
-				symbol: code,
-				address: publicKey,
-				logoURI: image,
-				...rest,
-			}),
-		),
-	};
-
-	// remove the assets key as it is not needed
-	delete updatedObject.assets;
-
-	return updatedObject;
+	return soroSwapTokenFormatted;
 }
 
 async function writeToFile(
 	stellarTokens: Json,
 	file = _stellarTokensPath,
 ): Promise<void> {
-	const allTokens = {
-		...stellarTokens,
-		tokens: [...(stellarTokens.tokens || [])],
+	// Create the new structure with listName, description, and tokens array
+	const tokenList = {
+		listName: "Stellar Token List",
+		description:
+			"A comprehensive list of tokens available on the Stellar network",
+		tokens: stellarTokens.tokens || [],
 	};
 
-	/*   console.log("allTokens: ", JSON.stringify(allTokens, null, 4));
+	/*   console.log("tokenList: ", JSON.stringify(tokenList, null, 4));
     console.log("non-mainnet: ", JSON.stringify(nonMainnetTokens, null, 4)); */
 
-	await fs.promises.writeFile(file, JSON.stringify(allTokens));
+	await fs.promises.writeFile(file, JSON.stringify(tokenList, null, 2));
 }

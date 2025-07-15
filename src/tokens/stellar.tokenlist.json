@@ -1,395 +1,464 @@
 {
-	"listName": "Curated by Creit Tech",
-	"description": "A list of assets picked by the Creit Tech team, this list includes popular assets in the network. These are not verified by us or something similar, it's only a list with the correct public keys of these popular assets",
-	"tokens": [
-		{
-			"symbol": "USDC",
-			"address": "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
-			"logoURI": "https://www.centre.io/images/usdc/usdc-icon-86074d9d49.png",
-			"domain": "centre.io",
-			"name": "USDC on Stellar",
-			"coingeckoId": "usd-coin",
-			"coincodexId": "usdc"
-		},
-		{
-			"symbol": "yUSDC",
-			"address": "GDGTVWSM4MGS4T7Z6W4RPWOCHE2I6RDFCIFZGS3DOA63LWQTRNZNTTFF",
-			"logoURI": "https://ultrastellar.com/static/images/icons/yUSDC.png",
-			"domain": "ultrastellar.com",
-			"name": "Ultra Stellar USD",
-			"coingeckoId": "usd-coin",
-			"coincodexId": "yusdc"
-		},
-		{
-			"symbol": "AUDD",
-			"address": "GDC7X2MXTYSAKUUGAIQ7J7RPEIM7GXSAIWFYWWH4GLNFECQVJJLB2EEU",
-			"logoURI": "https://s3.ap-southeast-2.amazonaws.com/static.audd.digital/AUDD-Logo-Blue.png",
-			"domain": "audd.digital"
-		},
-		{
-			"symbol": "USDS",
-			"address": "GBK4AYTOYIAYT4UJECSQGMACUWLKYOOM4VCAUUZ3Y3FG5XD2LYK3FGK2",
-			"logoURI": "https://prime.stably.io/images/USDS-logo.svg",
-			"domain": "stably.io",
-			"name": "Stably USD",
-			"coingeckoId": "usd-coin",
-			"coincodexId": "stableusd"
-		},
-		{
-			"symbol": "EURS",
-			"address": "GC5FGCDEOGOGSNWCCNKS3OMEVDHTE3Q5A5FEQWQKV3AXA7N6KDQ2CUZJ",
-			"logoURI": "https://api.stasis.net/uploads/eurs_logo.png",
-			"domain": "stasis.net"
-		},
-		{
-			"symbol": "EURC",
-			"address": "GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM",
-			"logoURI": "https://mykobo.co/assets/img/eurc_icon_128.png",
-			"domain": "mykobo.co"
-		},
-		{
-			"symbol": "BTC",
-			"address": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
-			"logoURI": "https://stellarport.io/assets/issues/btc.png",
-			"domain": "stellarport.io",
-			"name": "Bitcoin",
-			"coingeckoId": "bitcoin",
-			"coincodexId": "bitcoin"
-		},
-		{
-			"symbol": "BRAVE",
-			"address": "GDREF4TAC3RFYVLHEV24CXN2VBGCEEP74BZOC3T4Q4XJ6SXJFMDPNTJL",
-			"logoURI": "https://brave-token.age-shield.com/img/brave-token.png",
-			"domain": "brave-token.age-shield.com"
-		},
-		{
-			"symbol": "yXLM",
-			"address": "GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55",
-			"logoURI": "https://ultrastellar.com/static/images/icons/yXLM.png",
-			"domain": "ultrastellar.com",
-			"name": "Ultra Stellar Lumens",
-			"coingeckoId": "stellar",
-			"coincodexId": "yxlm"
-		},
-		{
-			"symbol": "CLPX",
-			"address": "GDYSPBVZHPQTYMGSYNOHRZQNLB3ZWFVQ2F7EP7YBOLRGD42XIC3QUX5G",
-			"logoURI": "https://kbtrading.org/static/CLPX.200x200.png",
-			"domain": "clpx.finance"
-		},
-		{
-			"symbol": "LSP",
-			"address": "GAB7STHVD5BDH3EEYXPI3OM7PCS4V443PYB5FNT6CFGJVPDLMKDM24WK",
-			"logoURI": "https://lumenswap.io/t/Lumenswap144.png",
-			"domain": "lumenswap.io",
-			"name": "Lumenswap",
-			"coingeckoId": "lumenswap",
-			"coincodexId": "lumenswap"
-		},
-		{
-			"symbol": "SLT",
-			"address": "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP",
-			"logoURI": "https://smartlands.io/.well-known/KPUeW1N1.jpg",
-			"domain": "smartlands.io"
-		},
-		{
-			"symbol": "BTCLN",
-			"address": "GDPKQ2TSNJOFSEE7XSUXPWRP27H6GFGLWD7JCHNEYYWQVGFA543EVBVT",
-			"logoURI": "https://kbtrading.org/static/Bitcoin_lightning_logo.png",
-			"domain": "kbtrading.org",
-			"name": "kbtrading BTC LN",
-			"coingeckoId": "bitcoin",
-			"coincodexId": "bitcoinlightning"
-		},
-		{
-			"symbol": "ARS",
-			"address": "GCYE7C77EB5AWAA25R5XMWNI2EDOKTTFTTPZKM2SR5DI4B4WFD52DARS",
-			"logoURI": "https://static.anclap.com/coin/ars.png",
-			"domain": "anclap.com"
-		},
-		{
-			"symbol": "AFR",
-			"address": "GBX6YI45VU7WNAAKA3RBFDR3I3UKNFHTJPQ5F6KOOKSGYIAM4TRQN54W",
-			"logoURI": "https://afreum.com/stellar/ST_Afreum.png",
-			"domain": "afreum.com",
-			"name": "Afreum",
-			"coingeckoId": "afreum",
-			"coincodexId": "afreum"
-		},
-		{
-			"symbol": "XRP",
-			"address": "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P",
-			"logoURI": "https://interstellar.exchange/app/assets/images/coins/XRP.png",
-			"domain": "interstellar.exchange",
-			"name": "Ripple",
-			"coingeckoId": "xrp",
-			"coincodexId": "ripple"
-		},
-		{
-			"symbol": "PLAT",
-			"address": "GBIMVJJJOTAKJYWJIY5YEXDZ4QIWQZLRJ4BXVHKH6EXWQ3WAEYBTPLAT",
-			"logoURI": "https://www.mintx.co/images/logo-silver100.png",
-			"domain": "mintx.co"
-		},
-		{
-			"symbol": "ETH",
-			"address": "GBFXOHVAS43OIWNIO7XLRJAHT3BICFEIKOJLZVXNT572MISM4CMGSOCC",
-			"logoURI": "https://ultrastellar.com/static/images/icons/ETH.png",
-			"domain": "ultrastellar.com",
-			"name": "Ethereum",
-			"coingeckoId": "ethereum",
-			"coincodexId": "ethereum"
-		},
-		{
-			"symbol": "BRLT",
-			"address": "GCHQ3F2BF5P74DMDNOOGHT5DUCKC773AW5DTOFINC26W4KGYFPYDPRSO",
-			"logoURI": "https://sep.stablex.cloud/brlt-logo.png",
-			"domain": "anchors.stablex.org"
-		},
-		{
-			"symbol": "MXN",
-			"address": "GCKIK5F6J4KMKF6MKB5EM67S5CK557EZQ3IAMZM5FFAYST63S3HWXVPE",
-			"logoURI": "https://www.anchormxn.com/public/images/ico.png",
-			"domain": "www.anchormxn.com",
-			"name": "anchormxn MXN",
-			"coingeckoId": "mexican-peso-tether",
-			"coincodexId": "anchormxn"
-		},
-		{
-			"symbol": "PYBC",
-			"address": "GBVB43NLVIP2USHXSKI7QQCZKZU2Z6U6A5PAHMIW7LLNVMQJTOX2BZI5",
-			"logoURI": "https://luxpayband.io/img/LuxLogo21822.png",
-			"domain": "luxpayband.io"
-		},
-		{
-			"symbol": "FRED",
-			"address": "GCA73U2PZFWAXJSNVMEVPNPPJCZGETWPWZC6E4DJAIWP3ZW3BAGYZLV6",
-			"logoURI": "https://fredenergy.org/fred-logo-xlm.png",
-			"domain": "fredenergy.org"
-		},
-		{
-			"symbol": "ETH",
-			"address": "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P",
-			"logoURI": "https://interstellar.exchange/app/assets/images/coins/ETH.png",
-			"domain": "interstellar.exchange",
-			"name": "Interstellar ETH",
-			"coingeckoId": "ethereum",
-			"coincodexId": "ethereum"
-		},
-		{
-			"symbol": "NUNA",
-			"address": "GCX2ENOVSSOOH6G4HIOBMPCBFXHDVDGA546NK3ZFX3NP3QS25BKZBWOW",
-			"logoURI": "https://nunaproject.art/images/icono/nuna.png",
-			"domain": "nunaproject.art"
-		},
-		{
-			"symbol": "ARST",
-			"address": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
-			"logoURI": "https://sep.stablex.cloud/arst-logo.png",
-			"domain": "anchors.stablex.org"
-		},
-		{
-			"symbol": "GOLD",
-			"address": "GBC5ZGK6MQU3XG5Y72SXPA7P5R5NHYT2475SNEJB2U3EQ6J56QLVGOLD",
-			"logoURI": "https://www.mintx.co/images/logo100.png",
-			"domain": "mintx.co"
-		},
-		{
-			"symbol": "NGNT",
-			"address": "GAWODAROMJ33V5YDFY3NPYTHVYQG7MJXVJ2ND3AOGIHYRWINES6ACCPD",
-			"logoURI": "https://cowrie.exchange/ngnt-logo.png",
-			"domain": "www.cowrie.exchange"
-		},
-		{
-			"symbol": "NGNC",
-			"address": "GASBV6W7GGED66MXEVC7YZHTWWYMSVYEY35USF2HJZBLABLYIFQGXZY6",
-			"logoURI": "https://ipfs.io/ipfs/bafkreihz6znqpkcshglbiumxnnhtof4sjvxgdf2ftwiahq3ivywkv2vpu4",
-			"domain": "ngnc.online"
-		},
-		{
-			"symbol": "yETH",
-			"address": "GDYQNEF2UWTK4L6HITMT53MZ6F5QWO3Q4UVE6SCGC4OMEQIZQQDERQFD",
-			"logoURI": "https://ultrastellar.com/static/images/icons/yETH.png",
-			"domain": "ultrastellar.com",
-			"name": "Ultra Stellar Ethereum",
-			"coingeckoId": "ethereum",
-			"coincodexId": "yeth"
-		},
-		{
-			"symbol": "SLVR",
-			"address": "GBZVELEQD3WBN3R3VAG64HVBDOZ76ZL6QPLSFGKWPFED33Q3234NSLVR",
-			"logoURI": "https://www.mintx.co/images/logo-silver100.png",
-			"domain": "mintx.co"
-		},
-		{
-			"symbol": "BTC",
-			"address": "GDPJALI4AZKUU2W426U5WKMAT6CN3AJRPIIRYR2YM54TL2GDWO5O2MZM",
-			"logoURI": "https://ultrastellar.com/static/images/icons/BTC.png",
-			"domain": "ultrastellar.com",
-			"name": "Bitcoin",
-			"coingeckoId": "bitcoin",
-			"coincodexId": "bitcoin"
-		},
-		{
-			"symbol": "KES",
-			"address": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
-			"logoURI": "https://res.cloudinary.com/clickpesa/image/upload/v1603170740/assets/clickpesa-icon.png",
-			"domain": "clickpesa.com"
-		},
-		{
-			"symbol": "BRL",
-			"address": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
-			"logoURI": "https://ntokens.com/img/brl-icon.png",
-			"domain": "ntokens.com"
-		},
-		{
-			"symbol": "YBX",
-			"address": "GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX",
-			"logoURI": "https://uploads-ssl.webflow.com/607f603d2f412c67690368b8/60df683719cc056004ea932b_YBX%20token%20web%20bad.png",
-			"domain": "www.script3.io"
-		},
-		{
-			"symbol": "PEN",
-			"address": "GA4TDPNUCZPTOHB3TKUYMDCRVATXKEADH7ZEYEBWJKQKE2UBFCYNBPEN",
-			"logoURI": "https://static.anclap.com/coin/pen.png",
-			"domain": "anclap.com"
-		},
-		{
-			"symbol": "XRP",
-			"address": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
-			"logoURI": "https://stellarport.io/assets/issues/xrp.png",
-			"domain": "stellarport.io",
-			"name": "StellarPort XRP",
-			"coingeckoId": "xrp",
-			"coincodexId": "ripple"
-		},
-		{
-			"symbol": "yBTC",
-			"address": "GBUVRNH4RW4VLHP4C5MOF46RRIRZLAVHYGX45MVSTKA2F6TMR7E7L6NW",
-			"logoURI": "https://ultrastellar.com/static/images/icons/yBTC.png",
-			"domain": "ultrastellar.com",
-			"name": "Ultra Stellar Bitcoin",
-			"coingeckoId": "bitcoin",
-			"coincodexId": "ybtc"
-		},
-		{
-			"symbol": "BTC",
-			"address": "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P",
-			"logoURI": "https://interstellar.exchange/app/assets/images/coins/BTC.png",
-			"domain": "interstellar.exchange",
-			"name": "InterStellar BTC",
-			"coingeckoId": "bitcoin",
-			"coincodexId": "bitcoin"
-		},
-		{
-			"symbol": "BTC",
-			"address": "GCQVEST7KIWV3KOSNDDUJKEPZLBFWKM7DUS4TCLW2VNVPCBGTDRVTEIT",
-			"logoURI": "https://ipfs.io/ipfs/bafkreicymbkuxwhil6i7xo7344iy74aqbtupxpw4r2nicb6qlczgfcbyvu",
-			"domain": "coinqvest.com",
-			"coingeckoId": "bitcoin",
-			"coincodexId": "bitcoin"
-		},
-		{
-			"symbol": "LTC",
-			"address": "GCQVEST7KIWV3KOSNDDUJKEPZLBFWKM7DUS4TCLW2VNVPCBGTDRVTEIT",
-			"logoURI": "https://ipfs.io/ipfs/bafkreic6bfeudcu2xdbhiz4gkx5imaz4qynuuhpke22yyo4u2a37y5mz3i",
-			"domain": "coinqvest.com"
-		},
-		{
-			"symbol": "ETH",
-			"address": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
-			"logoURI": "https://stellarport.io/assets/issues/eth.png",
-			"domain": "stellarport.io",
-			"name": "Coinqvest ETH",
-			"coingeckoId": "ethereum",
-			"coincodexId": "ethereum"
-		},
-		{
-			"symbol": "AQUA",
-			"address": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
-			"logoURI": "https://aqua.network/assets/img/aqua-logo.png",
-			"domain": "aqua.network",
-			"name": "Aquarius",
-			"coingeckoId": "aquarius",
-			"coincodexId": "aquarius"
-		},
-		{
-			"symbol": "PALL",
-			"address": "GCQ5ZYECTNYW6BZ47AZN6M5BXKV7ZZ24XPNHPSYZVUDVK7CIITOMPALL",
-			"logoURI": "https://www.mintx.co/images/logo-silver100.png",
-			"domain": "mintx.co"
-		},
-		{
-			"symbol": "TFT",
-			"address": "GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47",
-			"logoURI": "https://threefold.io/assets/static/favicon.ac8d93a.58ac168c914573b5ef7275f1a675e75a.png",
-			"domain": "threefold.io"
-		},
-		{
-			"symbol": "XXA",
-			"address": "GC4HS4CQCZULIOTGLLPGRAAMSBDLFRR6Y7HCUQG66LNQDISXKIXXADIM",
-			"logoURI": "https://ipfs.io/ipfs/bafkreigme7zfhdyl4nlt6jzq2nvrknbgfihld5ep2r7oj5ivzq5ki4mciq",
-			"domain": "ixinium.io"
-		},
-		{
-			"symbol": "SHX",
-			"address": "GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH",
-			"logoURI": "https://stronghold.co/.well-known/logo.png",
-			"domain": "stronghold.co"
-		},
-		{
-			"symbol": "TERN",
-			"address": "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C",
-			"logoURI": "https://ternio.io/toml/tern.png",
-			"domain": "ternio.io"
-		},
-		{
-			"symbol": "LTC",
-			"address": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
-			"logoURI": "https://stellarport.io/assets/issues/ltc.png",
-			"domain": "stellarport.io"
-		},
-		{
-			"symbol": "SCOP",
-			"address": "GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ",
-			"logoURI": "https://scopuly.com/img/logo/icon.png",
-			"domain": "www.scopuly.com"
-		},
-		{
-			"symbol": "WXT",
-			"address": "GASBLVHS5FOABSDNW5SPPH3QRJYXY5JHA2AOA2QHH2FJLZBRXSG4SWXT",
-			"logoURI": "https://img.wirexapp.com/image/upload/v1558606019/wirexapp/WXT.png",
-			"domain": "wirexapp.com"
-		},
-		{
-			"symbol": "TZS",
-			"address": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
-			"logoURI": "https://res.cloudinary.com/clickpesa/image/upload/v1603170740/assets/clickpesa-icon.png",
-			"domain": "clickpesa.com"
-		},
-		{
-			"symbol": "RMT",
-			"address": "GDEGOXPCHXWFYY234D2YZSPEJ24BX42ESJNVHY5H7TWWQSYRN5ZKZE3N",
-			"logoURI": "https://suregifts.com/.well-known/rmt.png",
-			"domain": "sureremit.co"
-		},
-		{
-			"symbol": "XLM",
-			"name": "Stellar Lumens",
-			"address": "11111111111111111111111111111XLM",
-			"domain": "stellar.org",
-			"coingeckoId": "stellar",
-			"coincodexId": "xlm",
-			"logoURI": "https://raw.githubusercontent.com/JuanRdBO/solana-token-list/main/images/xlm.png"
-		},
-		{
-			"symbol": "USDC Dev",
-			"address": "GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5",
-			"logoURI": "https://www.centre.io/images/usdc/usdc-icon-86074d9d49.png",
-			"domain": "centre.io",
-			"name": "USDC on Stellar Dev",
-			"coingeckoId": "usd-coin",
-			"coincodexId": "usdc"
-		}
-	]
+  "listName": "Stellar Token List",
+  "description": "A comprehensive list of tokens available on the Stellar network",
+  "tokens": [
+    {
+      "symbol": "XRP",
+      "address": "CAAV3AE3VKD2P4TY7LWTQMMJHIJ4WOCZ5ANCIJPC3NRSERKVXNHBU2W7",
+      "logoURI": "https://ipfs.io/ipfs/bafkreih6jv72q2zuthweyyzq5vqu4dcnxbkefd7o7shgs2llnqrdeufyiy",
+      "domain": "fchain.io",
+      "name": "XRP by Muyu Network",
+      "decimals": 7,
+      "issuer": "GBXRPL45NPHCVMFFAYZVUVFFVKSIZ362ZXFP7I2ETNQ3QKZMFLPRDTD5",
+      "org": "Muyu Network",
+      "icon": "https://ipfs.io/ipfs/bafkreih6jv72q2zuthweyyzq5vqu4dcnxbkefd7o7shgs2llnqrdeufyiy",
+      "coingeckoId": "xrp",
+      "coincodexId": "xrp"
+    },
+    {
+      "symbol": "CETES",
+      "address": "CAL6ER2TI6CTRAY6BFXWNWA7WTYXUXTQCHUBCIBU5O6KM3HJFG6Z6VXV",
+      "logoURI": "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes.png",
+      "domain": "etherfuse.com",
+      "name": "Etherfuse CETES",
+      "decimals": 7,
+      "issuer": "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
+      "org": "Etherfuse",
+      "icon": "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes.png",
+      "coingeckoId": "etherfuse-cetes"
+    },
+    {
+      "symbol": "BTC",
+      "address": "CAO7DDJNGMOYQPRYDY5JVZ5YEK4UQBSMGLAEWRCUOTRMDSBMGWSAATDZ",
+      "logoURI": "https://ipfs.io/ipfs/bafkreidhjwrkvsvuixny3j6w2xk4vhr5x7urz525usl7xvjur35fsc6bmu",
+      "domain": "ultracapital.xyz",
+      "name": "BTC by Ultra Capital",
+      "decimals": 7,
+      "issuer": "GDPJALI4AZKUU2W426U5WKMAT6CN3AJRPIIRYR2YM54TL2GDWO5O2MZM",
+      "org": "Ultra Capital LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreidhjwrkvsvuixny3j6w2xk4vhr5x7urz525usl7xvjur35fsc6bmu",
+      "coingeckoId": "bitcoin",
+      "coincodexId": "bitcoin"
+    },
+    {
+      "symbol": "NUNA",
+      "address": "CAPIOPSODD5QP4SJNIS4ASUWML4LH7ZEKTAPBJYZSMKXCATEKDZFKLHK",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiaamlsnnkh74cdz2fmn6ukfg3euonv55mrgzmxjampaknhxmbwtdy",
+      "domain": "nunaproject.art",
+      "name": "NUNA Project",
+      "decimals": 7,
+      "issuer": "GCX2ENOVSSOOH6G4HIOBMPCBFXHDVDGA546NK3ZFX3NP3QS25BKZBWOW",
+      "org": "NUNA ORG",
+      "icon": "https://ipfs.io/ipfs/bafkreiaamlsnnkh74cdz2fmn6ukfg3euonv55mrgzmxjampaknhxmbwtdy",
+      "coingeckoId": "nuna"
+    },
+    {
+      "symbol": "AQUA",
+      "address": "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK",
+      "logoURI": "https://ipfs.io/ipfs/bafkreigzckkixvbkru2gzve67zu3bfauccugkr6zovkdv6h2yxxrppyyqa",
+      "domain": "aqua.network",
+      "name": "AQUA Token",
+      "decimals": 7,
+      "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+      "org": "Aquarius dba AQUA token",
+      "icon": "https://ipfs.io/ipfs/bafkreigzckkixvbkru2gzve67zu3bfauccugkr6zovkdv6h2yxxrppyyqa",
+      "coingeckoId": "aquarius",
+      "coincodexId": "aquarius"
+    },
+    {
+      "symbol": "USDGLO",
+      "address": "CB226ZOEYXTBPD3QEGABTJYSKZVBP2PASEISLG3SBMTN5CE4QZUVZ3CE",
+      "logoURI": "https://app.glodollar.org/glo-logo.png",
+      "domain": "app.glodollar.org",
+      "name": "Glo Dollar",
+      "decimals": 7,
+      "issuer": "GBBS25EGYQPGEZCGCFBKG4OAGFXU6DSOQBGTHELLJT3HZXZJ34HWS6XV",
+      "org": "Glo Development Foundation",
+      "icon": "https://app.glodollar.org/glo-logo.png",
+      "coingeckoId": "glo-dollar",
+      "coincodexId": "glo-dollar"
+    },
+    {
+      "symbol": "KALE",
+      "address": "CB23WRDQWGSP6YPMY4UV5C4OW5CBTXKYN3XEATG7KJEZCXMJBYEHOUOV",
+      "logoURI": "https://imagedelivery.net/yd3qPvu7Jy_6BfgoQb2pZQ/30466c1d-ef73-4d2b-8814-949157465a00/public",
+      "domain": "kalepail.com",
+      "name": "The Blockchain Superfood",
+      "decimals": 7,
+      "issuer": "GBDVX4VELCDSQ54KQJYTNHXAHFLBCA77ZY2USQBM4CSHTTV7DME7KALE",
+      "org": "The KALEpail Project",
+      "icon": "https://imagedelivery.net/yd3qPvu7Jy_6BfgoQb2pZQ/30466c1d-ef73-4d2b-8814-949157465a00/public"
+    },
+    {
+      "symbol": "yBTC",
+      "address": "CB2XMFB6BDIHFOSFB5IXHDOYV3SI3IXMNIZLPDZHC7ENDCXSBEBZAO2Y",
+      "logoURI": "https://ipfs.io/ipfs/bafkreifuhpzfs5f6umrzrkqcspgvchruzwyuyvtgpzhs4nyvuraertoaby",
+      "domain": "ultracapital.xyz",
+      "name": "yBTC by Ultra Capital",
+      "decimals": 7,
+      "issuer": "GBUVRNH4RW4VLHP4C5MOF46RRIRZLAVHYGX45MVSTKA2F6TMR7E7L6NW",
+      "org": "Ultra Capital LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreifuhpzfs5f6umrzrkqcspgvchruzwyuyvtgpzhs4nyvuraertoaby",
+      "coingeckoId": "bitcoin",
+      "coincodexId": "ybtc"
+    },
+    {
+      "symbol": "GBPx",
+      "address": "CBCO65UOWXY2GR66GOCMCN6IU3Y45TXCPBY3FLUNL4AOUMOCKVIVV6JC",
+      "logoURI": "https://stellar.myfilebase.com/ipfs/QmeGXphMJgKHdhoVxb6P3jEJEkj79WPheLiga7ouNd5EZm",
+      "domain": "fxdao.io",
+      "name": "Decentralized GBP Coin",
+      "decimals": 7,
+      "issuer": "GAVH5ZWACAY2PHPUG4FL3LHHJIYIHOFPSIUGM2KHK25CJWXHAV6QKDMN",
+      "org": "FxDAO LLC",
+      "icon": "https://stellar.myfilebase.com/ipfs/QmeGXphMJgKHdhoVxb6P3jEJEkj79WPheLiga7ouNd5EZm"
+    },
+    {
+      "symbol": "BRL",
+      "address": "CBF4E5GSTVSITE5Q2ENOTEUQJPBZAU3SBDVLQMSQ7GLBRTSYGUAT722K",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiae7oor6xk7w27o5r7qdh4vw7yfu4c723swftguffgw6s7k4sofhu",
+      "domain": "ntokens.com",
+      "name": "Brazilian Real",
+      "decimals": 7,
+      "issuer": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
+      "org": "nTokens Servicos Digitais Ltda",
+      "icon": "https://ipfs.io/ipfs/bafkreiae7oor6xk7w27o5r7qdh4vw7yfu4c723swftguffgw6s7k4sofhu"
+    },
+    {
+      "symbol": "ETH",
+      "address": "CBH4M45TQBLDPXOK6L7VYKMEJWFITBOL64BN3WDAIIDT4LNUTWTTOCKF",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiad2di72p5p7bs3tolvimrq4bspcle3eqc74j7557wrqsnxlxlqya",
+      "domain": "ultracapital.xyz",
+      "name": "ETH by Ultra Capital",
+      "decimals": 7,
+      "issuer": "GBFXOHVAS43OIWNIO7XLRJAHT3BICFEIKOJLZVXNT572MISM4CMGSOCC",
+      "org": "Ultra Capital LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreiad2di72p5p7bs3tolvimrq4bspcle3eqc74j7557wrqsnxlxlqya",
+      "coingeckoId": "ethereum",
+      "coincodexId": "ethereum"
+    },
+    {
+      "symbol": "SSLX",
+      "address": "CBHBD77PWZ3AXPQVYVDBHDKEMVNOR26UZUZHWCB6QC7J5SETQPRUQAS4",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiecqakv3lqychk6wwzccywywvtwjag3vtehzj4m3qilcj7735cfva",
+      "domain": "sslx.sl8.online",
+      "name": "SSLX Cassator",
+      "decimals": 7,
+      "issuer": "GBHFGY3ZNEJWLNO4LBUKLYOCEK4V7ENEBJGPRHHX7JU47GWHBREH37UR",
+      "org": "Cassator Corp.",
+      "icon": "https://ipfs.io/ipfs/bafkreiecqakv3lqychk6wwzccywywvtwjag3vtehzj4m3qilcj7735cfva",
+      "coingeckoId": "starslax",
+      "coincodexId": "starslax"
+    },
+    {
+      "symbol": "XRF",
+      "address": "CBLLEW7HD2RWATVSMLAGWM4G3WCHSHDJ25ALP4DI6LULV5TU35N2CIZA",
+      "logoURI": "https://reflector.network/favicon-32x32.png",
+      "domain": "reflector.network",
+      "name": "Reflector xRF",
+      "decimals": 7,
+      "issuer": "GCHI6I3X62ND5XUMWINNNKXS2HPYZWKFQBZZYBSMHJ4MIP2XJXSZTXRF",
+      "org": "Reflector",
+      "icon": "https://reflector.network/favicon-32x32.png"
+    },
+    {
+      "symbol": "USTRY",
+      "address": "CBLV4ATSIWU67CFSQU2NVRKINQIKUZ2ODSZBUJTJ43VJVRSBTZYOPNUR",
+      "logoURI": "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ustry.png",
+      "domain": "etherfuse.com",
+      "name": "Etherfuse USTRY",
+      "decimals": 7,
+      "issuer": "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
+      "org": "Etherfuse",
+      "icon": "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ustry.png",
+      "coingeckoId": "etherfuse-ustry"
+    },
+    {
+      "symbol": "EURx",
+      "address": "CBN3NCJSMOQTC6SPEYK3A44NU4VS3IPKTARJLI3Y77OH27EWBY36TP7U",
+      "logoURI": "https://stellar.myfilebase.com/ipfs/QmTGegMR2v86ZjzHvhT3DMD6t1ri1VUz82tqRt4SxbFjC1",
+      "domain": "fxdao.io",
+      "name": "Decentralized EUR Coin",
+      "decimals": 7,
+      "issuer": "GAVH5ZWACAY2PHPUG4FL3LHHJIYIHOFPSIUGM2KHK25CJWXHAV6QKDMN",
+      "org": "FxDAO LLC",
+      "icon": "https://stellar.myfilebase.com/ipfs/QmTGegMR2v86ZjzHvhT3DMD6t1ri1VUz82tqRt4SxbFjC1",
+      "coingeckoId": "eurc"
+    },
+    {
+      "symbol": "XRP",
+      "address": "CBPMFYWP4FFV7PQUYHXJZBXS75EHR6FXYSYEZWH2UM7AUYSKI2Z3PTCG",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiheegvgfzbks6tacnlw24ub2frnr7j32rkzamieifhi2avljcly6m",
+      "domain": "stellarport.io",
+      "name": "Ripple",
+      "decimals": 7,
+      "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
+      "org": "unknown",
+      "icon": "https://ipfs.io/ipfs/bafkreiheegvgfzbks6tacnlw24ub2frnr7j32rkzamieifhi2avljcly6m",
+      "coingeckoId": "xrp",
+      "coincodexId": "xrp"
+    },
+    {
+      "symbol": "YBX",
+      "address": "CBRP2VD3CZLEQIQZ4JMBXGA5AC2U6JE26YU5CCIOICIZCVWPGBO2QRUB",
+      "logoURI": "https://uploads-ssl.webflow.com/607f603d2f412c67690368b8/60df683719cc056004ea932b_YBX%20token%20web%20bad.png",
+      "domain": "script3.io",
+      "name": "YieldBlox",
+      "decimals": 7,
+      "issuer": "GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX",
+      "org": "YieldBlox DAO",
+      "icon": "https://uploads-ssl.webflow.com/607f603d2f412c67690368b8/60df683719cc056004ea932b_YBX%20token%20web%20bad.png",
+      "coingeckoId": "yieldblox"
+    },
+    {
+      "symbol": "POYE",
+      "address": "CBT2U7I6J7LSEEJQQXBEOSRXNRNLH5UQPWG74Q36J3RHNQOQ5KEFCJ4Y",
+      "logoURI": "https://stellar.myfilebase.com/ipfs/QmYUeh7TRHB6bbBrZ2JLSsVEgww4fAHfPzaa7gFDDXrPB4",
+      "domain": "poye.xyz",
+      "name": "Poye",
+      "decimals": 7,
+      "issuer": "GCANJQJUFIWG7TXKCAJPG726KWW5CXISB2KM2MZRYLVV6AMZENZQN2ZE",
+      "org": "Poye Network",
+      "icon": "https://stellar.myfilebase.com/ipfs/QmYUeh7TRHB6bbBrZ2JLSsVEgww4fAHfPzaa7gFDDXrPB4"
+    },
+    {
+      "symbol": "EURC",
+      "address": "CBVDRT5474OBUEXF5MJB3UGQ5CG7CKGCAH5M4RV5NBCDJUBZ5OXHJLOU",
+      "logoURI": "https://ipfs.io/ipfs/bafkreib6tcswtof2e2bmcoks5miqmegkqrftml33ghedsczbhh72ugloza",
+      "domain": "mykobo.co",
+      "name": "EURo Coin",
+      "decimals": 7,
+      "issuer": "GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM",
+      "org": "MYKOBO",
+      "icon": "https://ipfs.io/ipfs/bafkreib6tcswtof2e2bmcoks5miqmegkqrftml33ghedsczbhh72ugloza",
+      "coingeckoId": "eurc"
+    },
+    {
+      "symbol": "LSP",
+      "address": "CBXE6V454EUYWVQCI4TCSOG4CSNPQ2BLYOTKAKXYFHO3KNVX4CXYCY2T",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiazthj4bttq75cxhgaekfxnv7ub6b2hq6qr5qkea4bhy4gie4qegy",
+      "domain": "lumenswap.io",
+      "name": "Lumenswap asset",
+      "decimals": 7,
+      "issuer": "GAB7STHVD5BDH3EEYXPI3OM7PCS4V443PYB5FNT6CFGJVPDLMKDM24WK",
+      "org": "Lumenswap LLC dba Lumenswap",
+      "icon": "https://ipfs.io/ipfs/bafkreiazthj4bttq75cxhgaekfxnv7ub6b2hq6qr5qkea4bhy4gie4qegy",
+      "coingeckoId": "lumenswap",
+      "coincodexId": "lumenswap"
+    },
+    {
+      "symbol": "NGNC",
+      "address": "CBYFV4W2LTMXYZ3XWFX5BK2BY255DU2DSXNAE4FJ5A5VYUWGIBJDOIGG",
+      "logoURI": "https://uploads-ssl.webflow.com/60a70a1080cf2974d4b1595e/61961ce43c530394bcb05349_NGRC.png",
+      "domain": "ngnc.online",
+      "name": "NGNC Coin",
+      "decimals": 7,
+      "issuer": "GASBV6W7GGED66MXEVC7YZHTWWYMSVYEY35USF2HJZBLABLYIFQGXZY6",
+      "org": "LINK.IO LTD",
+      "icon": "https://uploads-ssl.webflow.com/60a70a1080cf2974d4b1595e/61961ce43c530394bcb05349_NGRC.png"
+    },
+    {
+      "symbol": "Zi",
+      "address": "CBZCBYTP3TFCT7PCDRPJDQK7UY2R3QA4H6MF2P6XDS5CZNXLPF6S6OPB",
+      "logoURI": "https://zioncoin.org.uk/wp-content/uploads/2023/12/Zi_Zioncoin_Ticker.png",
+      "domain": "zioncoin.org.uk",
+      "name": "Zioncoin",
+      "decimals": 7,
+      "issuer": "GDBNNE67F54PTUZTCTOQYT5CQZFXA2AX6O5DCA5BVR653OP6KCWGG2Z7",
+      "org": "Zioncoin Foundation",
+      "icon": "https://zioncoin.org.uk/wp-content/uploads/2023/12/Zi_Zioncoin_Ticker.png"
+    },
+    {
+      "symbol": "oUSD",
+      "address": "CBZPEXQLJCGUYTAQRQ4FGCXUV5O4TZER5WSOMCGNDNIIO4EJ4FU5GQNZ",
+      "logoURI": "https://testnet.orbitcdp.finance/icons/tokens/ousd.svg",
+      "domain": "orbitcdp.finance",
+      "name": "Orbit USD",
+      "decimals": 7,
+      "issuer": "GBIWJGAOSFC4KUPHXM573TKTWHMI7VW7D4GCHYZYH243Q6HVBV7ORBIT",
+      "org": "Orbit CDP",
+      "icon": "https://testnet.orbitcdp.finance/icons/tokens/ousd.svg",
+      "coingeckoId": "usd-coin",
+      "coincodexId": "ousd"
+    },
+    {
+      "symbol": "yXLM",
+      "address": "CBZVSNVB55ANF24QVJL2K5QCLOAB6XITGTGXYEAF6NPTXYKEJUYQOHFC",
+      "logoURI": "https://ipfs.io/ipfs/bafkreihntcz2lpaxawmbhwidtuifladkgew6olwuly2dz5pewqillhhpay",
+      "domain": "ultracapital.xyz",
+      "name": "yXLM by Ultra Capital",
+      "decimals": 7,
+      "issuer": "GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55",
+      "org": "Ultra Capital LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreihntcz2lpaxawmbhwidtuifladkgew6olwuly2dz5pewqillhhpay",
+      "coingeckoId": "stellar",
+      "coincodexId": "yxlm"
+    },
+    {
+      "symbol": "AFR",
+      "address": "CCG27OZ5AV4WUXS6XTECWAXEY5UOMEFI2CWFA3LHZGBTLYZWTJF3MJYQ",
+      "logoURI": "https://ipfs.io/ipfs/bafkreibwqfiennh5grnq2jx4632227sacotxyxww7jkfo2jblelnnqite4",
+      "domain": "afreum.com",
+      "name": "AFREUM",
+      "decimals": 7,
+      "issuer": "GBX6YI45VU7WNAAKA3RBFDR3I3UKNFHTJPQ5F6KOOKSGYIAM4TRQN54W",
+      "org": "Afreum Inc dba Afreum",
+      "icon": "https://ipfs.io/ipfs/bafkreibwqfiennh5grnq2jx4632227sacotxyxww7jkfo2jblelnnqite4",
+      "coingeckoId": "afreum",
+      "coincodexId": "afreum"
+    },
+    {
+      "symbol": "SCOP",
+      "address": "CCJVS6IVXAAXWCMFVK6QLWHZHR4RTVRSEZRQ53GOAEDN3VY2BLPVY72J",
+      "logoURI": "https://ipfs.io/ipfs/bafkreigzc5scjuh2pry7j6eqnbao7irznrf7un5jj3fwhae3qseupvpska",
+      "domain": "scopuly.com",
+      "name": "Scopuly",
+      "decimals": 7,
+      "issuer": "GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ",
+      "org": "Scopuly",
+      "icon": "https://ipfs.io/ipfs/bafkreigzc5scjuh2pry7j6eqnbao7irznrf7un5jj3fwhae3qseupvpska"
+    },
+    {
+      "symbol": "SHX",
+      "address": "CCKCKCPHYVXQD4NECBFJTFSCU2AMSJGCNG4O6K4JVRE2BLPR7WNDBQIQ",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiafy5nqmyfy5t3ay5tgmy5wnzkqlyqkir2owjq4jqwcxklne4xqcm",
+      "domain": "stronghold.co",
+      "name": "Stronghold SHx",
+      "decimals": 7,
+      "issuer": "GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH",
+      "org": "Stronghold",
+      "icon": "https://ipfs.io/ipfs/bafkreiafy5nqmyfy5t3ay5tgmy5wnzkqlyqkir2owjq4jqwcxklne4xqcm",
+      "coingeckoId": "stronghold",
+      "coincodexId": "stronghold"
+    },
+    {
+      "symbol": "USDC",
+      "address": "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+      "logoURI": "https://ipfs.io/ipfs/bafkreibpzncuhbk5ozhdw7xkcdoyf3xhwhcwcf6sj7axjzimxw6vm6pvyy",
+      "domain": "centre.io",
+      "name": "USDC on Stellar",
+      "decimals": 7,
+      "issuer": "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+      "org": "Centre Consortium LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreibpzncuhbk5ozhdw7xkcdoyf3xhwhcwcf6sj7axjzimxw6vm6pvyy",
+      "coingeckoId": "usd-coin",
+      "coincodexId": "usdc"
+    },
+    {
+      "symbol": "BLND",
+      "address": "CD25MNVTZDL4Y3XBCPCJXGXATV5WUHHOWMYFF4YBEGU5FCPGMYTVG5JY",
+      "logoURI": "https://stellar.myfilebase.com/ipfs/QmaDc2ArxQom1bFkE7JsqqZ2VdThvLV2GTRimaeJcpxU8L",
+      "domain": "blend.capital",
+      "name": "Blend",
+      "decimals": 7,
+      "issuer": "GDJEHTBE6ZHUXSWFI642DCGLUOECLHPF3KSXHPXTSTJ7E3JF6MQ5EZYY",
+      "org": "Blend Protocol",
+      "icon": "https://stellar.myfilebase.com/ipfs/QmaDc2ArxQom1bFkE7JsqqZ2VdThvLV2GTRimaeJcpxU8L",
+      "coingeckoId": "blend",
+      "coincodexId": "blend"
+    },
+    {
+      "symbol": "STROOPY",
+      "address": "CDDL6HGNYGVRCQB37DDFTIFYMGTX36AQMCXI6U3NOAO2BBZDNGKMGQSY",
+      "logoURI": "https://xlmeme.com/cdn-cgi/imagedelivery/BMsStEZme-xi9eCyEb_01g/bfb4bba0-00d6-434b-ea8a-89d733dcd000/public",
+      "domain": "xlmeme.com",
+      "name": "STROOPY",
+      "decimals": 7,
+      "issuer": "GBZ3SMMNNSOLVV6LGNDBDWRVD2N56VUZZ6LVB6VGOOJGSMWI7ISLOJEC",
+      "org": "Silver Hen Tech",
+      "icon": "https://xlmeme.com/cdn-cgi/imagedelivery/BMsStEZme-xi9eCyEb_01g/bfb4bba0-00d6-434b-ea8a-89d733dcd000/public"
+    },
+    {
+      "symbol": "USDx",
+      "address": "CDIKURWHYS4FFTR5KOQK6MBFZA2K3E26WGBQI6PXBYWZ4XIOPJHDFJKP",
+      "logoURI": "https://stellar.myfilebase.com/ipfs/QmQqpy1GLcGqqsg6DaHqLQntPPuFcdHZYG2pLBpHohvCUd",
+      "domain": "fxdao.io",
+      "name": "Decentralized USD Coin",
+      "decimals": 7,
+      "issuer": "GAVH5ZWACAY2PHPUG4FL3LHHJIYIHOFPSIUGM2KHK25CJWXHAV6QKDMN",
+      "org": "FxDAO LLC",
+      "icon": "https://stellar.myfilebase.com/ipfs/QmQqpy1GLcGqqsg6DaHqLQntPPuFcdHZYG2pLBpHohvCUd",
+      "coingeckoId": "usd-coin",
+      "coincodexId": "usdx"
+    },
+    {
+      "symbol": "yUSDC",
+      "address": "CDOFW7HNKLUZRLFZST4EW7V3AV4JI5IHMT6BPXXSY2IEFZ4NE5TWU2P4",
+      "logoURI": "https://ipfs.io/ipfs/bafkreicvkevokwxgvqn6vjmf4hf2krk6txy3igi7ei6dwvleb5hqe4odcy",
+      "domain": "ultracapital.xyz",
+      "name": "yUSDC",
+      "decimals": 7,
+      "issuer": "GDGTVWSM4MGS4T7Z6W4RPWOCHE2I6RDFCIFZGS3DOA63LWQTRNZNTTFF",
+      "org": "Ultra Capital LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreicvkevokwxgvqn6vjmf4hf2krk6txy3igi7ei6dwvleb5hqe4odcy",
+      "coingeckoId": "usd-coin",
+      "coincodexId": "yusdc"
+    },
+    {
+      "symbol": "SDEXEX",
+      "address": "CDOIEBW5LN7T7PSFY6ADLPIDF52PFRX57WIYWJ637PCZ7ZFDDN5T6NCH",
+      "logoURI": "https://ipfs.io/ipfs/bafkreiexs7jvn2jaill67333t5wkxhefqcb4rabouzjfpnhrwcjjw4uawa",
+      "domain": "sdexexplorer.com",
+      "name": "SDEX Explorer Token",
+      "decimals": 7,
+      "issuer": "GBQHMDRWV3WU5YACBUUCBY4Y6PPWBJXW5WCSG5XJ63FC4HXJNGXYFD5J",
+      "org": "SDEX Explorer",
+      "icon": "https://ipfs.io/ipfs/bafkreiexs7jvn2jaill67333t5wkxhefqcb4rabouzjfpnhrwcjjw4uawa"
+    },
+    {
+      "symbol": "EURC",
+      "address": "CDTKPWPLOURQA2SGTKTUQOWRCBZEORB4BWBOMJ3D3ZTQQSGE5F6JBQLV",
+      "logoURI": "https://ipfs.io/ipfs/bafkreidizqlammdzrrurfq3o5owta77fiyonn6ri72h6rltqimn2xs2by4",
+      "domain": "circle.com",
+      "name": "EUR Coin",
+      "decimals": 7,
+      "issuer": "GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2",
+      "org": "Circle Internet Financial, LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreidizqlammdzrrurfq3o5owta77fiyonn6ri72h6rltqimn2xs2by4",
+      "coingeckoId": "eurc"
+    },
+    {
+      "symbol": "EURMTL",
+      "address": "CDUYP3U6HGTOBUNQD2WTLWNMNADWMENROKZZIHGEVGKIU3ZUDF42CDOK",
+      "logoURI": "https://ipfs.io/ipfs/bafkreicg536a5xuhenf4lpmzvgcorbh7zr2mgt3ugxyme7kfhpadeh5zgm",
+      "domain": "mtl.montelibero.org",
+      "name": "EURMTL",
+      "decimals": 7,
+      "issuer": "GACKTN5DAZGWXRWB2WLM6OPBDHAMT6SJNGLJZPQMEZBUR4JUGBX2UK7V",
+      "org": "Montelibero dba Montelibero",
+      "icon": "https://ipfs.io/ipfs/bafkreicg536a5xuhenf4lpmzvgcorbh7zr2mgt3ugxyme7kfhpadeh5zgm"
+    },
+    {
+      "symbol": "yETH",
+      "address": "CDYEOOVL6WV4JRY45CXQKOBJFFAPOM5KNQCCDNM333L6RM2L4RO3LKYG",
+      "logoURI": "https://ipfs.io/ipfs/bafkreihqsw7iai5gcfwvgnexdcwvftiv7fjjbg2skc2wcdygfngllv5ute",
+      "domain": "ultracapital.xyz",
+      "name": "yETH By Ultra Capital",
+      "decimals": 7,
+      "issuer": "GDYQNEF2UWTK4L6HITMT53MZ6F5QWO3Q4UVE6SCGC4OMEQIZQQDERQFD",
+      "org": "Ultra Capital LLC",
+      "icon": "https://ipfs.io/ipfs/bafkreihqsw7iai5gcfwvgnexdcwvftiv7fjjbg2skc2wcdygfngllv5ute",
+      "coingeckoId": "ethereum",
+      "coincodexId": "yeth"
+    },
+    {
+      "symbol": "XLM",
+      "name": "Stellar Lumens",
+      "address": "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+      "issuer": "11111111111111111111111111111XLM",
+      "domain": "stellar.org",
+      "coingeckoId": "stellar",
+      "coincodexId": "xlm",
+      "logoURI": "https://raw.githubusercontent.com/JuanRdBO/solana-token-list/main/images/xlm.png"
+    },
+    {
+      "symbol": "USDC Dev",
+      "address": "GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5",
+      "logoURI": "https://www.centre.io/images/usdc/usdc-icon-86074d9d49.png",
+      "domain": "centre.io",
+      "name": "USDC on Stellar Dev",
+      "coingeckoId": "usd-coin",
+      "coincodexId": "usdc"
+    }
+  ]
 }

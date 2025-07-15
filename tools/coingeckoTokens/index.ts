@@ -1,27 +1,26 @@
+import axios from "axios";
 import * as fs from "fs";
-
+import { create } from "superstruct";
+import config from "../config";
+import { fetchOldTokens } from "../tokenRegistry/tokenList";
 import {
 	_coinsUrl,
 	_mainnetChainId,
 	_solanaTokensPath,
-	_stellarTokensPath,
 	_stablecoinsUrl,
+	_stellarTokensPath,
 	_tokenListUrl,
 } from "./constants";
-import { CoinMap, Json } from "./types";
+import { fetchSolanaJupiterTokensParsed } from "./fetchJupiterTokens";
 import {
+	CoingeckoCoinSchema,
 	CoingeckoCoinsSchema,
-	CoingeckoStablecoinsSchema,
 	CoingeckoStablecoinSchema,
+	CoingeckoStablecoinsSchema,
 	CoingeckoTokenListSchema,
 	CoingeckoTokenListSchemaToken,
-	CoingeckoCoinSchema,
 } from "./schema";
-import { create } from "superstruct";
-import axios from "axios";
-import { fetchOldTokens } from "../tokenRegistry/tokenList";
-import config from "../config";
-import { fetchSolanaJupiterTokensParsed } from "./fetchJupiterTokens";
+import { CoinMap, Json } from "./types";
 
 async function fetchSolanaTokensAndWriteToFile() {
 	// get the coingecko token Public keys and their coingecko ids.
@@ -251,7 +250,7 @@ function updateToken(
 }
 
 function updateLogoUri(uri: string): string {
-	if (uri == "") return "";
+	if (uri === "") return "";
 
 	try {
 		const url = new URL(uri);
