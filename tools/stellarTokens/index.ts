@@ -15,8 +15,10 @@ export default async function fetchStellarTokensAndWriteToFile() {
 		symbol: "USDC Dev",
 		address: "GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5",
 		logoURI: "https://www.centre.io/images/usdc/usdc-icon-86074d9d49.png",
+		issuer: "GAWZGWFOURKXZ4XYXBGFADZM4QIG6BJNM74XIZCEIU3BHM62RN2MDEZN",
 		domain: "centre.io",
 		name: "USDC on Stellar Dev",
+		org: "Circle",
 		coingeckoId: "usd-coin",
 		coincodexId: "usdc",
 	});
@@ -41,7 +43,6 @@ export default async function fetchStellarTokensAndWriteToFile() {
 async function manualCoingeckoMatch(stellarTokens) {
 	const coins = MANUAL_STELLAR_TOKENS;
 
-	console.log("stellarTokens: ", JSON.stringify(stellarTokens, null, 4));
 	const coingecko = stellarTokens.map((token) => {
 		const foundToken = coins.find(
 			(coin) => coin.symbol === token.symbol && coin.address === token.address,
@@ -59,6 +60,7 @@ async function manualCoingeckoMatch(stellarTokens) {
 		address: "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
 		issuer: "11111111111111111111111111111XLM",
 		domain: "stellar.org",
+		org: "Stellar Development Foundation",
 		coingeckoId: "stellar",
 		coincodexId: "xlm",
 		logoURI:
