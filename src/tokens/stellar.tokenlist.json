@@ -462,6 +462,17 @@
       "org": "Circle",
       "coingeckoId": "usd-coin",
       "coincodexId": "usdc"
+    },
+    {
+      "symbol": "USDY",
+      "address": "CB3YA656OYIHU57657I5KGSBRHE5I3OZU4VFC22PYAOANFZHEWNYGAGP",
+      "logoURI": "https://ondo.finance/favicon.ico",
+      "issuer": "GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6",
+      "domain": "ondo.finance",
+      "name": "USDY",
+      "org": "Ondo",
+      "coingeckoId": "ondo-us-dollar-yield",
+      "coincodexId": "ondo-us-dollar-yield"
     }
   ]
 }
