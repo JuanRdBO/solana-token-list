@@ -77,23 +77,84 @@ export async function fetchStellarTokens() {
 		},
 	};
 
-	const soroSwapTokens = await axios.get(
-		"https://raw.githubusercontent.com/soroswap/token-list/refs/heads/main/tokenList.json",
-		config,
-	);
+	const soroSwapTokens = await axios
+		.get(
+			"https://raw.githubusercontent.com/soroswap/token-list/refs/heads/main/tokenList.json",
+			config,
+		)
+		.catch((error) => {
+			console.error("Error fetching Soro Swap tokens: ", error);
+			return { data: { assets: [] } };
+		});
 	const soroSwapTokenFormatted = soroSwapTokens.data.assets.map((token) => {
 		return {
 			symbol: token.code,
 			address: token.contract,
 			logoURI: token.icon,
-			domain: token.domain,
+			domain: token.domain ?? "",
 			name: token.name,
 			decimals: token.decimals,
 			issuer: token.issuer,
+			org: token.org ?? "",
 		};
 	});
 
-	return soroSwapTokenFormatted;
+	const stellarExpertTokens = await axios
+		.get("https://api.stellar.expert/explorer/public/asset-list/top50", config)
+		.catch((error) => {
+			console.error("Error fetching Stellar Expert tokens: ", error);
+			return { data: { assets: [] } };
+		});
+	const stellarExpertTokenFormatted = stellarExpertTokens.data.assets.map(
+		(token) => {
+			return {
+				symbol: token.code,
+				address: token.contract,
+				logoURI: token.icon,
+				domain: token.domain ?? "",
+				name: token.name,
+				decimals: token.decimals,
+				issuer: token.issuer,
+				org: token.org ?? "",
+			};
+		},
+	);
+
+	const lobstrTokens = await axios
+		.get("https://lobstr.co/api/v1/sep/assets/curated.json", config)
+		.catch((error) => {
+			console.error("Error fetching Lobstr tokens: ", error);
+			return { data: { assets: [] } };
+		});
+	const lobstrTokenFormatted = lobstrTokens.data.assets.map((token) => {
+		return {
+			symbol: token.code,
+			address: token.contract,
+			logoURI: token.icon,
+			domain: token.domain ?? "",
+			name: token.name,
+			decimals: token.decimals,
+			issuer: token.issuer,
+			org: token.org ?? "",
+		};
+	});
+
+	const allTokens = [
+		...soroSwapTokenFormatted,
+		...stellarExpertTokenFormatted,
+		...lobstrTokenFormatted,
+	];
+
+	// Remove duplicates based on issuer and symbol combination
+	const uniqueTokens = allTokens.filter(
+		(token, index, self) =>
+			index ===
+			self.findIndex(
+				(t) => t.issuer === token.issuer && t.symbol === token.symbol,
+			),
+	);
+
+	return uniqueTokens;
 }
 
 async function writeToFile(
